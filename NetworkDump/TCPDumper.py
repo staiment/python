@@ -83,9 +83,9 @@ def timeWatcher():
         current_time = time.time()
         files = filter(os.path.isfile,glob.glob(args.output+"/"+args.prefix+"*.gz"))
         if(len(files)>0):
-            maxfiles=len(files)-1
+            maxfiles=len(files)
             verboseprint(2, "Len files to remove: "+str(maxfiles))
-            for x in range  (0, len(files)-1):
+            for x in range  (0, len(files)):
                 modification_time=os.path.getmtime(files[x])
                 if (current_time - modification_time) // (24*3600) >= args.days:
                 #if (current_time - modification_time) // (60) >= args.days:
