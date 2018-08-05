@@ -2,7 +2,7 @@
 '''
 Created on 4 ago. 2018
 
-This license is shared under the Creative Commons BY license.
+This script is shared under the Creative Commons BY license.
 
 @author: David de Juan Calvo, alias Staiment 
 
