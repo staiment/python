@@ -6,6 +6,8 @@ This script is shared under the Creative Commons BY license.
 
 @author: David de Juan Calvo, alias Staiment 
 
+Ensure 
+ip link set eth0 promisc on
 '''
 
 import argparse
